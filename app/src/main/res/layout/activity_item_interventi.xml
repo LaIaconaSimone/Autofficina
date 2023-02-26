@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/border_shape">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewMacchina_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID Macchina" />
+
+        <TextView
+            android:id="@+id/textViewDescrizione"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrizione" />
+
+        <TextView
+            android:id="@+id/textViewdurataOraria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Durata Oraria" />
+
+        <TextView
+            android:id="@+id/textViewdataArrivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Arrivo" />
+
+
+        <TextView
+            android:id="@+id/textViewdataConsegna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Consegna" />
+
+    </LinearLayout>
+
+</LinearLayout>

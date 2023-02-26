@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentAddIntervento">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textViewMacchina_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Macchina" />
+
+        <Spinner
+            android:id="@+id/spinnerIdMacchina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textViewDescrizione"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrizione" />
+
+        <EditText
+            android:id="@+id/editTextDescrizione"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textViewDurataOraria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Durata Oraria" />
+
+        <EditText
+            android:id="@+id/editTextDurataOraria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/textViewDataArrivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data di Arrivo" />
+
+        <EditText
+            android:id="@+id/editTextDataArrivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textViewDataConsegna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data di Consegna" />
+
+        <EditText
+            android:id="@+id/editTextDataConsegna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aggiungi Intervento" />
+
+    </LinearLayout>
+
+</FrameLayout>

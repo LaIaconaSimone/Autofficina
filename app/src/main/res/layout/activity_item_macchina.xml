@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/border_shape">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewCliente_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ClienteId" />
+
+        <TextView
+            android:id="@+id/textViewNumeroTelaio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numero Telaio" />
+
+        <TextView
+            android:id="@+id/textMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marca" />
+
+        <TextView
+            android:id="@+id/textModello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modello" />
+
+
+        <TextView
+            android:id="@+id/textTarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Targa" />
+
+    </LinearLayout>
+
+</LinearLayout>

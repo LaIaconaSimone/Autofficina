@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/fragmentClienti"
+        app:showAsAction="never"
+        android:title="Lista Clienti">
+
+    </item>
+    <item
+        android:id="@+id/fragmentMacchina"
+        app:showAsAction="never"
+        android:title="Lista Macchine">
+
+    </item>
+
+    <item
+        android:id="@+id/fragmentInterventi"
+        app:showAsAction="never"
+        android:title="Lista Interventi">
+
+    </item>
+
+
+</menu>
