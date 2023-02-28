@@ -11,9 +11,7 @@ import android.widget.Spinner
 import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.autofficina.Adapter.SpinnerCliente
 import com.example.autofficina.Adapter.SpinnerMacchina
-import com.example.autofficina.Entity.Cliente
 import com.example.autofficina.Entity.Intervento
 import com.example.autofficina.Entity.Macchina
 

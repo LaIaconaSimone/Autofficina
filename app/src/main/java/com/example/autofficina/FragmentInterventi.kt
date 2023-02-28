@@ -13,8 +13,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.autofficina.Adapter.InterventoAdapter
-import com.example.autofficina.Adapter.MacchinaAdapter
-import com.example.autofficina.Entity.Intervento
 
 class FragmentInterventi : Fragment() {
     private lateinit var mInterventoViewModel: InterventoViewModel

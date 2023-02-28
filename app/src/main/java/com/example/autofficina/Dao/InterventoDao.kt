@@ -5,7 +5,6 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import com.example.autofficina.Entity.Intervento
-import com.example.autofficina.Entity.Macchina
 
 @Dao
 interface InterventoDao {

@@ -11,7 +11,7 @@ import com.example.autofficina.Entity.Macchina
 
 @Database(
     entities = [Cliente::class, Macchina::class, Intervento::class],
-    version = 2,
+    version = 3,
     exportSchema = false
 )
 

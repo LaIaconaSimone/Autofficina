@@ -4,12 +4,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import androidx.lifecycle.viewmodel.CreationExtras
-import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.autofficina.Entity.Cliente
 import com.example.autofficina.R
-import com.example.autofficina.Services.ClienteService.Companion.clienteList
 
 
 /*class ClienteViewHolder(view:View) : RecyclerView.ViewHolder(view){

@@ -4,11 +4,8 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
-import com.example.autofficina.ClienteRepository
 import com.example.autofficina.Dao.ClienteDatabase
-import com.example.autofficina.Entity.Cliente
 import com.example.autofficina.Entity.Macchina
-import com.example.autofficina.MacchinaRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

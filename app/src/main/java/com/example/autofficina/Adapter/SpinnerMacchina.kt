@@ -15,10 +15,8 @@ class SpinnerMacchina(private val mContext: Context, private val mListMacchina: 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         val view = convertView ?: LayoutInflater.from(mContext).inflate(R.layout.spinner_layout_macchina, parent, false)
         val macchina = mListMacchina[position]
-        val marcaTextView = view.findViewById<TextView>(R.id.marca)
-        val modelloTextView = view.findViewById<TextView>(R.id.modello)
-        marcaTextView.text = macchina.marca
-        modelloTextView.text = macchina.modello
+        val targaTextView = view.findViewById<TextView>(R.id.targa)
+        targaTextView.text = macchina.targa
         return view
     }
 

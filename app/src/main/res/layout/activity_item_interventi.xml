@@ -2,45 +2,105 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@drawable/border_shape"
     android:orientation="horizontal"
-    android:padding="16dp"
-    android:background="@drawable/border_shape">
+    android:padding="16dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textViewMacchina_id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="ID Macchina" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textViewDescrizione"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Descrizione" />
+            <TextView
+                android:id="@+id/textViewMacchina_id_Vis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID Macchina: " />
 
-        <TextView
-            android:id="@+id/textViewdurataOraria"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Durata Oraria" />
+            <TextView
+                android:id="@+id/textViewMacchina_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID Macchina" />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/textViewdataArrivo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Data Arrivo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewDescrizione_Vis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descrizione: " />
+
+            <TextView
+                android:id="@+id/textViewDescrizione"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descrizione" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewdurataOraria_Vis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Durata Oraria: " />
+
+            <TextView
+                android:id="@+id/textViewdurataOraria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Durata Oraria" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
 
-        <TextView
-            android:id="@+id/textViewdataConsegna"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Data Consegna" />
+            <TextView
+                android:id="@+id/textViewdataArrivo_Vis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Arrivo: " />
+
+            <TextView
+                android:id="@+id/textViewdataArrivo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Arrivo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewdataConsegna_Vis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Consegna: " />
+
+            <TextView
+                android:id="@+id/textViewdataConsegna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Consegna" />
+        </LinearLayout>
 
     </LinearLayout>
 

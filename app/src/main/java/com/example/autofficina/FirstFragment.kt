@@ -12,7 +12,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.autofficina.Adapter.ClienteAdapter
-import com.example.autofficina.Entity.Cliente
 
 class FirstFragment : Fragment() {
     //Dichiarazione della variabile "mClienteViewModel" che verrà

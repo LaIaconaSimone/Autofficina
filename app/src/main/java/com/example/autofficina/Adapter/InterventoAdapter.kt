@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.autofficina.Entity.Intervento
-import com.example.autofficina.Entity.Macchina
 import com.example.autofficina.R
 
 class InterventoAdapter() : RecyclerView.Adapter<InterventoAdapter.MyViewHolder>(
